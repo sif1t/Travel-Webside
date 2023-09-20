@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --primary-dark: #36cfd4;
-  --primary-light: #1ae7c5;
-
+  --primary-dark: #00e1ff;
+  --primary-light: #3b05ff;
+}
+.icon {
+  color: var(--primary-dark);
 }
 @layer base {
   body {
@@ -13,7 +15,7 @@
   }
 
   li {
-    @apply p-4
+    @apply p-4 text-xl
   }
 
   h1 {
@@ -25,6 +27,12 @@
 
   h3 {
     @apply text-xl font-bold
+  }
+  button {
+    @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md
+  }
+  .icon {
+    @apply text-2xl cursor-pointer
   }
 }
 
