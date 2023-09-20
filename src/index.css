@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #36cfd4;
+  --primary-light: #1ae7c5;
+
+}
+@layer base {
+  body {
+    @apply font-[poppins]
+  }
+
+  li {
+    @apply p-4
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl font-bold
+  }
+  h2 {
+    @apply text-3xl font-bold
+  }
+
+  h3 {
+    @apply text-xl font-bold
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,300;1,400&display=swap')
+
