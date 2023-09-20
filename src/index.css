@@ -15,7 +15,7 @@
   }
 
   li {
-    @apply p-4 text-xl
+    @apply p-4 
   }
 
   h1 {
