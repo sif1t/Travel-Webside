@@ -11,6 +11,7 @@ const Navbar = () => {
     const handleNav = () => {
         setNav (!nav);
         setLogo (!logo)
+        setLogo ()
     };
    return (
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
