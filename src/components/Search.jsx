@@ -44,9 +44,9 @@ const Search = () => {
 
       <div>
           <div className='border text-center'>
-              <p className='pt-2'>GET AN ADDITIONAL 10% OFF</p>
-              <p className='py-4'>12 HOURS LEFT</p>
-              <p className='bg-gray-800 text-gray-200 py-2'>BOOK NOW AND SAVE</p>
+              <p className='pt-2'>GET AN ADDITIONAL 20% OFF</p>
+              <p className='py-4'>24 HOURS LEFT</p>
+              <p className='bg-gray-800 text-gray-200 py-2'> BOOK NOW </p>
           </div>
           <form className='w-full'>
               <div className='flex flex-col my-2'>
